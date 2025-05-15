@@ -5,7 +5,7 @@ import Input from "../../components/inputs/Input";
 import { validateEmail } from "../../utils/helper";
 import ProfilePhotoSelector from "../../components/inputs/ProfilePhotoSelector";
 import { UserContext } from "../../context/UserContext";
-import uploadImage from "../../utils/uploadImage"
+import uploadImage from "../../utils/uploadImage";
 import axiosInstance from "../../utils/axiosInstace";
 import { API_PATHS } from "../../utils/apiPath";
 const Signup = () => {
@@ -16,7 +16,7 @@ const Signup = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
-  const {updateUser} = useContext(UserContext)
+  const { updateUser } = useContext(UserContext);
 
   const handleSignUp = async (e) => {
     e.preventDefault();
@@ -42,16 +42,15 @@ const Signup = () => {
     //Signup API call
 
     try {
-
-      if(profilePic){
+      if (profilePic) {
         const imgUploadRes = await uploadImage(profilePic);
-        profileImageUrl = imgUploadRes.imageUrl||"";
+        profileImageUrl = imgUploadRes.imageUrl || "";
       }
       const response = await axiosInstance.post(API_PATHS.AUTH.REGISTER, {
         fullName,
         email,
         password,
-        profileImageUrl
+        profileImageUrl,
       });
 
       const { token, user } = response.data;
@@ -68,7 +67,7 @@ const Signup = () => {
         setError("Something went wrong. Please try again.");
       }
     }
-  }; 
+  };
 
   return (
     <AuthLayout>
@@ -82,21 +81,26 @@ const Signup = () => {
           <ProfilePhotoSelector image={profilePic} setImage={setProfilePic} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Input
-              type={"text"}
-              value={fullName}
-              onChange={({ target }) => setFullName(target.value)}
-              label="Full Name"
-              placeholder="Enter Full Name"
-            />
-            <Input
-              value={email}
-              onChange={({ target }) => setEmail(target.value)}
-              label="Email Address "
-              placeholder="johndoe@email.com"
-              type="text"
-            />
-            <div className="col-span-2">
+            <div className="w-full">
+              <Input
+                type="text"
+                value={fullName}
+                onChange={({ target }) => setFullName(target.value)}
+                label="Full Name"
+                placeholder="Enter Full Name"
+              />
+            </div>
+            <div className="w-full">
+              <Input
+                value={email}
+                onChange={({ target }) => setEmail(target.value)}
+                label="Email Address"
+                placeholder="johndoe@email.com"
+                type="text"
+              />
+            </div>
+
+            <div className="md:col-span-2 w-full">
               <Input
                 value={password}
                 onChange={({ target }) => setPassword(target.value)}

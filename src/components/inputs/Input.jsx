@@ -6,7 +6,7 @@ const Input = ({ value, onChange, label, placeholder, type }) => {
     setShowPassword(!showPassword);
   };
   return (
-    <div>
+    <div className="flex flex-col w-full">
       <label className="text-[13px] text-slate-800">{label}</label>
 
       <div className="input-box">
