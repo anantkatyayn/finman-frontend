@@ -1,12 +1,102 @@
-# React + Vite
+# 💸 FinMan – Personal Finance Manager (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FinMan** is a modern web application designed to help users track income, manage expenses, and visualize their financial health through intuitive charts and a clean dashboard.
 
-Currently, two official plugins are available:
+This repository contains the **frontend** code built using **React.js**, **Vite**, and **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 User authentication with profile photo
+- 💰 Add, delete, and manage income & expenses
+- 📊 Interactive Pie & Line charts (Recharts)
+- 📆 Monthly summaries and recent transactions
+- 📥 Download income/expense data as Excel
+- 📱 Fully responsive on mobile, tablet & desktop
+
+---
+
+## 📽️ Video Preview
+
+🎥 Watch FinMan in action:
+
+[![FinMan Demo](public/FinMan%20_thumbnail.pngFinMan _thumbnail.png)](https://youtu.be/XHzPr9AgT24?si=LmfKMiBmYmLAZrxU)
+
+
+
+---
+
+## 🧱 Tech Stack
+
+- **React + Vite** – Fast, modular frontend development
+- **Tailwind CSS** – Utility-first CSS framework
+- **Recharts** – Charts for income/expense insights
+- **Axios** – API communication
+- **React Router DOM** – Page routing
+- **React Icons** – Icon support
+
+---
+
+## 📁 Folder Structure
+
+```bash
+src/
+├── assets/ # Static files and icons
+├── components/ # Reusable UI components
+├── context/ # UserContext for auth state
+├── hooks/ # Custom React hooks
+├── pages/ # Application pages
+├── utils/ # Helpers and API configs
+├── App.jsx # Root component
+└── main.jsx # Vite entry point
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+
+git clone https://github.com/anantkatyayn/finman-frontend.git
+cd finman-frontend
+
+```
+
+### 2. Install dependencies
+
+```
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env` file in the root directory:
+```
+VITE_BASE_URL=https://your-backend-url.com
+```
+
+### 4. Run the development server
+
+```
+npm run dev
+
+```
+
+### 5. Build for production
+```
+npm run build
+```
+
+
+---
+
+---
+
+## 👨‍💻 Author
+
+Made with 💚 by [Anant Katyayn](https://github.com/anantkatyayn)
+
+---
