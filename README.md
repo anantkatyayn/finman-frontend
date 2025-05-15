@@ -20,7 +20,7 @@ This repository contains the **frontend** code built using **React.js**, **Vite*
 ## 📽️ Video Preview
 
 🎥 Watch FinMan in action:
-[![FinMan Demo](./FinMan_thumbnail.png)](https://youtu.be/XHzPr9AgT24?si=LmfKMiBmYmLAZrxU)
+[![FinMan Demo](./assets/FinMan%20_thumbnail.png)](https://youtu.be/XHzPr9AgT24?si=LmfKMiBmYmLAZrxU)
 
 
 
