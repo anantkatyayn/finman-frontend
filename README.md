@@ -4,7 +4,7 @@
 
 This repository contains the **frontend** code built using **React.js**, **Vite**, and **Tailwind CSS**.
 
----
+
 
 ## 🚀 Features
 
@@ -15,7 +15,6 @@ This repository contains the **frontend** code built using **React.js**, **Vite*
 - 📥 Download income/expense data as Excel
 - 📱 Fully responsive on mobile, tablet & desktop
 
----
 
 ## 📽️ Video Preview
 
@@ -23,8 +22,14 @@ This repository contains the **frontend** code built using **React.js**, **Vite*
 [![FinMan Demo](./assets/FinMan%20_thumbnail.png)](https://youtu.be/XHzPr9AgT24?si=LmfKMiBmYmLAZrxU)
 
 
+## 🔗 Important Links
+###  Backend Repo
 
----
+👉 [FinMan Backend](https://github.com/anantkatyayn/finman-backend)
+###  Deployed Website
+
+👉 [FinMan](https://finman-anant.netlify.app)
+
 
 ## 🧱 Tech Stack
 
@@ -98,4 +103,4 @@ npm run build
 
 Made with 💚 by [Anant Katyayn](https://github.com/anantkatyayn)
 
----
+
