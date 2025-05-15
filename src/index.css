@@ -24,7 +24,7 @@
 }
 
 .btn-primary {
-  @apply w-full text-white bg-primary text-sm font-medium shadow-lg shadow-emerald-500/5 p-[10px] rounded-md my-1 hover:bg-primary/15 hover:text-primary cursor-pointer;
+  @apply w-full text-white active:text-[#4B5768] active:bg-[#E4E7EB] bg-primary text-sm font-medium shadow-lg shadow-emerald-500/5 p-[10px] rounded-md my-1 hover:bg-primary/15 hover:text-primary cursor-pointer;
 }
 
 .card {
@@ -36,7 +36,7 @@
 }
 
 .add-btn {
-  @apply flex items-center gap-1.5 text-xs md:text-sm font-medium text-emerald-600 whitespace-nowrap bg-emerald-50  px-4 py-2 rounded-lg border border-emerald-100 cursor-pointer; 
+  @apply flex items-center gap-1.5 text-xs md:text-sm font-medium active:text-[#4B5768] active:bg-[#E4E7EB] text-emerald-600 whitespace-nowrap bg-emerald-50  px-4 py-2 rounded-lg border border-emerald-100 cursor-pointer; 
 }
 
 
