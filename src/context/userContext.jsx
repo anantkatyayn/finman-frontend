@@ -19,4 +19,4 @@ const UserProvider = ({ children }) => {
   );
 };
 
-export default UserProvider;
+export default UserProvider
