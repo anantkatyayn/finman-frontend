@@ -5,6 +5,14 @@
 This repository contains the **frontend** code built using **React.js**, **Vite**, and **Tailwind CSS**.
 
 
+## 🔗 Important Links
+###  Backend Repo
+
+👉 [FinMan Backend](https://github.com/anantkatyayn/finman-backend)
+###  Deployed Website
+
+👉 [FinMan](https://finman-anant.netlify.app)
+
 
 ## 🚀 Features
 
@@ -22,13 +30,6 @@ This repository contains the **frontend** code built using **React.js**, **Vite*
 [![FinMan Demo](./assets/FinMan%20_thumbnail.png)](https://youtu.be/XHzPr9AgT24?si=LmfKMiBmYmLAZrxU)
 
 
-## 🔗 Important Links
-###  Backend Repo
-
-👉 [FinMan Backend](https://github.com/anantkatyayn/finman-backend)
-###  Deployed Website
-
-👉 [FinMan](https://finman-anant.netlify.app)
 
 
 ## 🧱 Tech Stack
